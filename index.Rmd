@@ -10,7 +10,7 @@ output:
 # Yi Liu
 
 
-Yi Liu is now a first-year graduate student majoring in **Biostatistics** in [Columbia University](https://www.columbia.edu). You could find personal information about her in this website. If you want to learn more about her, please click here
+Yi Liu is now a first-year graduate student majoring in **Biostatistics** in [Columbia University](https://www.columbia.edu). You could find personal information about her in this website. If you want to learn more about her, please click [here](about.html)
 
 
 ![](images/myself.jpeg) 
