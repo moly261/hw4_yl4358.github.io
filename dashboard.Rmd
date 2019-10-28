@@ -19,12 +19,8 @@ library(jsonlite)
 ```
 
 ```{r}
-set.seed(1)
-data("instacart")
 
-instacart = 
-  instacart %>% 
-  filter(department == "dairy eggs")
+data("instacart")
 
 ```
 
@@ -69,6 +65,12 @@ inner_join(instacart, common_aisles, by = "aisle") %>%
 ### Chart C
 
 ```{r}
+instacart %>% 
+  filter(department == "dairy eggs") %>%
+  group_by(aisle) %>% 
+  summarize(n = n()) %>% 
+  plot_ly(labels = ~aisle, values = ~n, type = "pie",
+          colors = "Set2") 
 
 ```
 
