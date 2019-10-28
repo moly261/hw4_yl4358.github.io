@@ -9,6 +9,8 @@ navbar:
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<yl4358@cumc.columbia.edu>
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/feed/?trk=onboarding-landing
     - icon: fa-github fa-lg
       href: http://github.com/moly261/
 output:
