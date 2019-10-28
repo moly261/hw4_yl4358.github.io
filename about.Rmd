@@ -1,0 +1,69 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+   
+---
+# YI LIU
+
+## Education
+
+**Columbia University, New York**
+
+* *Master of Science degree in Biastatistics*
+
+**Xiamen University, Xiamen**
+
+* *Bachelor of Science degree in Chemistry*
+
+* Participation in ‘Top-notch Students Scientific Development Pilot Program in Chemistry’ supported by the Chinese Ministry of Education
+
+
+## Academic Awards
+
+* *First-Class Scholarship*, Xiamen University (Top 1%), **2018**
+
+* *Academic Merit Students*, Xiamen University (Top 5%), **2017**
+
+* *National Scholarship*, Ministry of Education of P. R. China (Top 1%), **2016** 
+
+* *Top-notch Students Scientific Pilot Program Scholarship*(Top 2%), **2016-2018**
+
+
+## Research Background
+
+**MOLs Synthesis Assisted by Machine Learning and Data Analysis, College of Chemistry, Xiamen University**
+
+*Research Assistant* [Supervision by Prof. Cheng Wang & Da Zhou]
+
+* Design of the experimental protocol using Uniform Design technique;
+
+*	Synthesis of Hafnium (Hf) based Metal-organic Layers (MOLs) with linear biphenyldicarboxylate (BPDC); Characterization of morphology by PXRD, SEM and TEM;
+
+* Standardization and normalization of reagent doses and product data;
+
+*	Use of Random Forest algorithm and Python programming for feature selection and classification of product data.
+
+**International Genetically Engineered Machine Competition, Boston**
+
+*Xiamen University Team Member*
+
+* Development of an Aptamer Based Cell-free Detection system for protein biomarkers detection associated with pancreatic cancer;
+
+* Development of an efficient, tailored Outer-Membrane Vesicles (OMVs) production system for specific siRNA encapsulation as a mean to target oncogenic KRAS in pancreatic cancer;
+
+* Molecular docking model between ssDNA model and protein model using Escher NG in VEGA ZZ;
+
+* Performance in laboratory operations (Western Blot, SDS Page, chromatography and gel electrophoresis) and programming using Python and R. 
+
+**Simulation of Apple Tree Water Dynamics Using MATLAB, Cornell University, Ithaca**
+
+*Independent Project* [Advisors: Prof. Fengqi You & Liang Zhao]  
+
+* Development of a three-compartmental model for water flow dynamics in relation to a Soil-Plant-Atmosphere Continuum model;
+
+* Adjustment of parameters and optimization of variables for irrigation scheduling;
+
+* Use of MATLAB for the derived model simulation and conversion of the model into a state-space representation model for deployment in other industrial contexts. 
