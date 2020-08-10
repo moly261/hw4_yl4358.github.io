@@ -1,13 +1,13 @@
 ---
 title: "Statistics By States"
-runtime: shiny
+
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
     source_code: embed
     theme: journal
-
+runtime: shiny
 ---
 
 
@@ -20,9 +20,9 @@ library(jiebaR)
 library(jiebaRD)
 library(wordcloud)
 library(readxl)
-library(RColorBrewer)
 library(wordcloud2)
 library(flexdashboard)
+library(shiny)
 ```
 
 ```{r}
@@ -48,9 +48,9 @@ Column {.sidebar}
 #### Haircare
 
 ```{r}
-
+inputPanel(
 sliderInput("size", "Size", min = 1, max = 50, 
-            value = 2)
+            value = 2))
 
 ```
 
