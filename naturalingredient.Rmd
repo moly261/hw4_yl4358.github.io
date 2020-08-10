@@ -1,0 +1,70 @@
+---
+title: "Statistics By States"
+runtime: shiny
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+    theme: journal
+
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(Rwordseg)
+library(tm)
+library(NLP)
+library(jiebaR)
+library(jiebaRD)
+library(wordcloud)
+library(readxl)
+library(RColorBrewer)
+library(wordcloud2)
+library(flexdashboard)
+```
+
+```{r}
+cutter = worker(stop_word = "./data/中文停用词表.txt",output = "./data")
+mydata = read_excel("./data/Haircare.xlsx")
+mydata_review = mydata %>% 
+                filter(emotion != "Negative") %>% 
+                select(review_text)
+
+```
+
+Nature ingredient word cloud
+=====================================
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+#### Haircare
+
+```{r}
+textInput("selection", "Input your interested ingredient:",
+                      "")
+sliderInput("size", "Size", min = 1, max = 50, 
+            value = 2)
+
+```
+
+
+
+
+Column 
+-----------------------------------------------------------------------
+  
+### Wordcloud {data-height=800}
+  
+```{r}
+
+
+```
+
+### With those parameters, you can measure... {data-height=200}
+
+```{r}
+
+```
